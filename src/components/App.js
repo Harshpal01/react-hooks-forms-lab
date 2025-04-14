@@ -4,7 +4,7 @@ import Header from "./Header";
 import itemData from "../data/items";
 
 function App() {
-  const [items, setItems] = useState(itemData);
+  const [items] = useState(itemData);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   function handleDarkModeClick() {
